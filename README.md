@@ -4,7 +4,9 @@ DRP04-PJI110-SALA-003GRUPO-017
 
 Para usar esse projeto:
 
+    git clone (a url do projeto)
     npm install
+    npm start
 
 Links de referência
 
