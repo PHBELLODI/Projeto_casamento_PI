@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width,initial-scale=1.0">
+	<title>Sonho de casamento</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link hrel="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" ref="stylesheet">
+	
+</head>
+<body>
+	<section class="header">
+		<nav>
+		  <a href="index.html"><img src="images/logo.png"></a>
+		  <div class="nav-links" id="navLinks">
+			  <i class="fa fa-times" onclick="hideMenu()"></i>
+			  <ul>
+				  <li><a href="">HOME</a></li>
+				  <li><a href="">GALERIA</a></li>
+				  <li><a href="">SOBRE NÓS</a></li>
+				  <li><a href="">LOGIN</a></li>
+			  </ul>
+		  </div>
+		  <i class="fa fa-times" onclick="showMenu()"></i>
+		</nav>
+
+	<div class="structure">
+	<div class="wrapper">
+		<form action="">
+		<h1>Login</h1>
+	<div class="input-box">
+		<input type="text" placeholder="Username" required>
+		<i class=""></i><!--icon-->
+		</div>
+		<br>
+		<div class="input-box">
+			<input type="password" placeholder="Password" required>
+			<i href="https://www.flaticon.com/br/icones-gratis/fechadura" title="fechadura ícones"></i><!---icon-->
+		</div>
+		<div class="remember-forgot">
+			<label><input type="checkbox" >Lembre-se de mim.</label>
+		</div>
+			<div>
+			<a href="#">Esqueceu sua senha</a>
+			
+		</div>
+		
+		<button type="submit" class="btn">Login</button>
+<br>
+
+	
+	</div>
+</div>
+</div>
+</section>
+
+<!--- Footer---->
+<section class="footer">
+		<p> instagram</p>
+		<div class="icons">
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-facebook"></i>
+<p>Mayde by - Grupo do <i class="fa fa-heart-o"></i>Univesp</p>
+		</div>
+</section>
+
+
+
+<!---JavaScript para Esconder o Menu-->
+<script>
+	var navLinks =  document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>
